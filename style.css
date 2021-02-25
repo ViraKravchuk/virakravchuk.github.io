@@ -51,14 +51,13 @@ h4 {
     width: 350px;
     font-family: 'Fjalla One', sans-serif;
 }
+
 h5 {
-    margin-left: 350px;
-    margin-right: 0px;
     margin-top: 80px;
     margin-bottom: 20px;
     font-size: 40px;
-	text-align: center;
-    width: 300px;
+    text-align: center;
+    width: 100%;
     font-family: 'Fjalla One', sans-serif;
 }
 h6 {
@@ -69,7 +68,7 @@ h6 {
     font-size: 20px;
 	text-align: center;
     width: 350px;
-    font-family: 'Caveat', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 	#logo {
@@ -95,6 +94,7 @@ h6 {
     margin-left: 40px;
     margin-right: 0px;
     margin-top: 40px;
+	margin-bottom: 10px;
 	
 }
 #big-pic2 {
@@ -103,8 +103,85 @@ h6 {
     height: 250px;
     margin-left: 40px;
     margin-right: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
+	margin-bottom: 10px;
 }
+#big-pic21 {
+	width: 350px;
+	border-radius: 10px;
+    height: 250px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 10px;
+	margin-bottom: 40px;
+}
+#big-pic3 {
+	width: 400px;
+	border-radius: 10px;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 10px
+}
+#big-pic4 {
+	width: 400px;
+	border-radius: 10px;
+    height: 450px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 10px
+}
+#big-pic5 {
+	width: 400px;
+	border-radius: 10px;
+    height: 500px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 10px
+}
+#big-pic6 {
+	width: 400px;
+	border-radius: 10px;
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 10px
+}
+#big-pic7 {
+	width: 400px;
+	border-radius: 10px;
+    height: 500px;
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 10px
+}
+  #big-pic8 {
+	width: 300px;
+	border-radius: 10px;
+    height: 300px;
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 20px
+}
+ #big-pic9 {
+	width: 250px;
+	border-radius: 10px;
+    height: 230px;
+    margin-left: 90px;
+    margin-right: 20px;
+    margin-top: 5px
+}
+ #big-pic10 {
+	width: 300px;
+	border-radius: 10px;
+    height: 300px;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+
 #logo img{
 	width: 220px;
 	margin-top:10px;
@@ -177,7 +254,7 @@ footer p{
 #instagram img{
 	width: 50px;
 	margin-top:0px;
-	margin-left:80px;
+	margin-left:130px;
 }
 #instagram {
 	display: grid;
@@ -185,11 +262,9 @@ footer p{
 	align-items: center;
 	background-color: #cf7355;
 }
-<a href="https://www.instagram.com/verochkakravchuk/" </a>
-
 
 #facebook img{
-	width: 21px;
+	width: 20px;
 	margin-top:0px;
 	margin-left:10px;
 	margin-right:30px;
@@ -200,7 +275,6 @@ footer p{
 	align-items: center;
 	background-color: #cf7355;
 }
-<a href="https://www.facebook.com/vira.kravchuk.7/" </a>
 
 .two-column{
 	display: grid;
@@ -251,21 +325,21 @@ footer p{
  width: 130px;
  display: inline-block;
  font-family: 'Fjalla One', sans-serif;
- 
+ text-align: center;
 }
 
 #main-bottom1 a {
  background-color: #cf7355;
  padding: 10px;
  border-radius: 5px;
- margin: 5px 200px 20px 150px;
+ margin: 30px 200px 20px 150px;
  font-size: 25px;
  color: black;
  text-decoration: none;
  width: 130px;
  display: inline-block;
  font-family: 'Fjalla One', sans-serif;
- 
+ text-align: center;
 }
 
 #main-bottom2 a {
@@ -279,5 +353,47 @@ footer p{
  width: 130px;
  display: inline-block;
  font-family: 'Fjalla One', sans-serif;
- 
+ text-align: center;
 }
+.wide {
+    margin-left: 380px!important;
+}
+
+#li {
+    width: 600px;
+    margin: 20px auto;
+	font-size: 20px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Prata', serif;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+#intro {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Prata', serif;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    width: 100%;
+    display: inline-block;
+}
+span {
+	 margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 20px;
+	text-align: center;
+    width: 350px;
+    font-family: 'Pacifico', cursive;
+}
+
